@@ -1,0 +1,40 @@
+{
+  "motoData": [
+    {
+      "title": "Honda XRV 750",
+      "paragraph": "Built in homage to the giant desert racers of the Paris-Dakar Rally, the Africa Twin is a large, dual sport bike, powered by a softly tuned V-twin engine. It has twin headlights, a windscreen, and a long dual seat which stretches back from the tank to an aluminium grabrail and plastic coated luggage rack. An aluminium bashplate protects the bottom of the engine from flying rocks and impacts.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Honda_Africa_Twin_XRV750T.jpg/280px-Honda_Africa_Twin_XRV750T.jpg",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Honda NX650 Dominator",
+      "paragraph": "Its engine was slightly larger than that of the XR600R, which debuted in 1985. The 97 x 80 mm bore engine was enlarged to 100 mm and stroked to 82mm for 644cc. With 44 horsepower at 6,000 RPM, the engine had 53 lbf⋅ft of torque at 5,000 RPM. A gear-driven counterbalancing system helped to smooth out vibrations created by the large single-cylinder engine. The compression ratio of 8.3:1 for the four valves was aided by a single chain-driven overhead camshaft. The intake was via a 40 mm Keihin constant-velocity carburettor, reaching as low as 5.2 L/100km (45 mpg) from 12.8 liters (3.4 gallons) in the tank. The bike featured a dry-sump (frame carries oil supply) engine.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Honda_NX650_Dominator.jpg/250px-Honda_NX650_Dominator.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Suzuki DR650",
+      "paragraph": "In 1996 the DR650SE was introduced, replacing the previous models. The engine was radically redesigned, reducing its power but allowing for more smooth delivery. The 2010+ SE model has the factory option of lowering the seat height by 40 mm for shorter riders. This involves lowering the front and rear suspension. A shorter side stand is also needed. The SE seat is narrow and firm. The SE has no tachometer but with standard gearing will cruise comfortably at 110–115 km/h. It has digital electronic CDI ignition and a coated cylinder bore to reduce weight. The exhaust pipe is made of stainless steel painted black to stop rusting. For a single cylinder bike, it is quite smooth due to the effective balancer shaft. The 40 mm Mikuni BST40 carb gives smooth power flow. It has electric-start only. The 21-inch front tire gives good directional control on gravel roads but is still fine for fast riding on sealed roads with the standard tires. ",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Suzuki_DR650RSE.jpg/300px-Suzuki_DR650RSE.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Aprilia Pegaso 650",
+      "paragraph": "The Aprilia Pegaso 650 is a motorcycle model from the Italian manufacturer Aprilia . The Pegaso 650 has developed from a rather rough road enduro (until 1996) to a fun motorcycle suitable for traveling (1997–2003) to a supermoto (strada, factory) funduro (trail) (2004–2009).",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Ag_ta_%281789378125%29.jpg/250px-Ag_ta_%281789378125%29.jpg"
+    },
+    {
+      "id": 5,
+      "title": "KTM 1290 Super Adventure",
+      "paragraph": "The KTM 1290 Super Adventure is a high performance touring machine. The bike is powered by two-cylinder 1301 cc engine producing 160 hp and 140 Nm of torque with 108 Nm at 2500 rpm. The Super Adventure features a motorcycle cruise control which is first from KTM. KTM offers multiple optional safety features including MTC (Motorcycle Traction Control), MSC (Motorcycle Stability Control), MSR (Motor Slip Regulation), and ABS brakes. KTM also installed LED cornering lights for improved cornering visibility in low light situations.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/KTM_1290_Super_Adventure.jpeg/300px-KTM_1290_Super_Adventure.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "KTM 950 Adventure",
+      "paragraph": "The story of KTM 950 Adventure started in 1992. That year, a one-off special called the Bepono, built for the German BoTT series by two engineering students by combining a pair of cylinders from a KTM LC4 single on a special crankcase, was displayed on the KTM stand at the IFMA Show in Cologne. Although, this was just a teaser. The second time around in 1996, the Stuttgart-based design office Kraft Technik, commissioned by KTM to produce a design for a V-twin Hard Enduro, possibly using the 60-degree V-twin RSV900 Rotax engine they were developing for Aprilia. Unfortunately, the Italians refused to share it with their Austrian neighbors. An alternative was the Swedish Folan 60-degree V-twin engine, however that co-venture was aborted after KTM was successful on the stock market.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/KTM_950_ADVENTURE_2004.jpg/250px-KTM_950_ADVENTURE_2004.jpg"
+    }
+  ]
+}
