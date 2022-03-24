@@ -43,6 +43,47 @@ nav {
 /*Meniu pabaiga
 
 /*CRUD /main pradžia*/
+
+/*Formos laukai*/
+h3{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.formuLaukas{
+  display: flex;
+  flex-direction: column;
+}
+.pridetiMotocikla{
+  border:4px solid black;
+  text-align: center;
+  border-radius: 5px;
+
+}
+
+.laukelis{
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+.knopke{
+  width: 80px;
+  background-color: grey;
+  border: 3px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.knopke:hover{
+  background-color: green;
+}
+
+/*Formos laukai*/
+
+
 .motoIsvedimas{
   display: flex;
   flex-direction: column;
@@ -78,6 +119,23 @@ img{
   width: 400px;
   height: 300px;
   margin: 0 auto;
+}
+
+.trintiMoto{
+  width: 80px;
+  background-color: grey;
+  border: 3px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.trintiMoto:hover{
+  background-color: red;
+
 }
 
 /*CRUD /main pabaiga*/
