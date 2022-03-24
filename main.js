@@ -31,7 +31,36 @@ fetch("http://localhost:3000/motoData")
   })
 
 
+//Elemento pridejimas pradzia
+document.querySelector("#pridetiMotocikla").addEventListener("submit", e => {
+  e.preventDefault();
+  let motoPavadinimas = e.target.elements.pavadinimas.value;
+  console.log(motoPavadinimas);
 
+  let aprasas = e.target.elements.paragrafas.value;
+  console.log(aprasas);
+
+  let foto = e.target.elements.nuoroda.value;
+  console.log(foto)
+
+  fetch("http://localhost:3000/motoData", {
+    method: "POST",
+    headers: {
+      'Accept': 'application/json, text/plain,*/*',
+      'Content-Type': 'application/json'
+    },
+
+    body: JSON.stringify({ title: motoPavadinimas, paragraph: aprasas, image: foto })
+  })
+
+})
+
+
+
+
+
+
+//Elemento panaikinimas pabaiga
 
 
 
