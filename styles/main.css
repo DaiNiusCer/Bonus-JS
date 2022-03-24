@@ -11,6 +11,8 @@ header {
   flex-direction: column;
   align-items: center;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-bottom: 10px;
+  
   
 }
 
@@ -51,12 +53,20 @@ h3{
 .formuLaukas{
   display: flex;
   flex-direction: column;
+  gap:10px;
+  margin-bottom: 10px;
 }
 .pridetiMotocikla{
   border:4px solid black;
   text-align: center;
   border-radius: 5px;
 
+}
+
+.redaguotiMotocikla{
+  border:4px solid black;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .laukelis{
@@ -80,6 +90,24 @@ h3{
 .knopke:hover{
   background-color: green;
 }
+.knopke1{
+  width: 80px;
+  background-color: grey;
+  border: 3px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.knopke1:hover{
+  background-color: yellow;
+}
+
+
+
+
 
 /*Formos laukai*/
 
@@ -112,6 +140,7 @@ p{
   border-radius: 20px;
   text-align: center;
   margin-bottom: 50px;
+  border:4px solid black ;
   
 }
 
