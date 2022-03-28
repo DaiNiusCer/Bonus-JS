@@ -1,5 +1,4 @@
-// 1 Elementų išvedimas į ekraną
-
+//Elementų išvedimas į ekraną
 fetch("http://localhost:3000/motoData")
   .then(res => res.json())
   .then(data => data)
@@ -8,7 +7,7 @@ fetch("http://localhost:3000/motoData")
 
     data.forEach(moto => {
       output += `
-    <div id="${moto.id}">
+    <div class="motoKortele" id="${moto.id}">
     <h2>${moto.title}</h2>
     <img src="${moto.image}">
     <p>${moto.paragraph}</p>
@@ -41,17 +40,15 @@ fetch("http://localhost:3000/motoData")
   })
 
 
-//Elemento pridejimas pradzia
+//Elemento pridejimas 
 document.querySelector("#pridetiMotocikla").addEventListener("submit", e => {
   e.preventDefault();
   let motoPavadinimas = e.target.elements.pavadinimas.value;
-  console.log(motoPavadinimas);
 
   let aprasas = e.target.elements.paragrafas.value;
-  console.log(aprasas);
 
   let foto = e.target.elements.nuoroda.value;
-  console.log(foto)
+
 
   fetch("http://localhost:3000/motoData", {
     method: "POST",
@@ -64,21 +61,6 @@ document.querySelector("#pridetiMotocikla").addEventListener("submit", e => {
   })
 
 })
-
-
-
-
-
-
-//Elemento panaikinimas pabaiga
-
-
-
-
-
-
-
-
 
 //Elemento panaikinimas
 
@@ -93,8 +75,7 @@ let motocikloRedagavimas = (id) => {
   fetch(`http://localhost:3000/motoData/${id}`)
     .then(res => res.json())
     .then(data => {
-      //Paimtus duomenis iš super meno prilyginam savo formos eilutėms
-      //Kurie buvo fechinti is failo su GET
+
       const forma = document.querySelector("#redaguotiMotocikla");
 
 
@@ -120,7 +101,7 @@ let motocikloRedagavimas = (id) => {
 
 
 
-    //Redagavimo metodas PUT-skirtas redaguoti turimą informaciją
+
     fetch(`http://localhost:3000/motoData/${e.target.elements.submitEdit.id}`, {
       method: "PUT",
       headers: {

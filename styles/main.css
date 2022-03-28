@@ -167,6 +167,22 @@ img{
 
 }
 
+.redaguotiMoto{
+  width: 80px;
+  background-color: grey;
+  border: 3px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.redaguotiMoto:hover{
+  background-color:yellow;
+
+}
+
+
 /*CRUD /main pabaiga*/
 
 
@@ -190,3 +206,78 @@ footer>p {
 
 
 /*Footer pabaiga*/
+
+/*Naujas media*/
+@media(min-width:768px){
+  header {
+   
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav {
+    display: inline-block;
+  }
+  
+  .meniuLinkai {
+    width: 1050px;
+    font-size: 35px;
+    
+  }
+
+  h3{
+    font-size: 25px;
+  }
+  
+  .laukelis{
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+p{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+
+
+
+.formuLaukas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.motoIsvedimas{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.motoKortele{
+  height: 750px;
+  position: relative;
+}
+
+.trintiMoto{
+position: absolute;
+bottom: 5px;
+left:50px
+
+}
+
+.redaguotiMoto{
+position: absolute;
+bottom: 25px;
+right: 50px;
+}
+form:hover{
+background-color: rgba(247, 233, 159, 0.575);
+}
+
+
+
+}
